@@ -17,8 +17,8 @@ public class SlidingPreferenceActivity extends SherlockPreferenceActivity {
 	 */
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
 		mHelper = new SlidingActivityHelper(this);
+		super.onCreate(savedInstanceState);
 		mHelper.onCreate(savedInstanceState);
 	}
 
