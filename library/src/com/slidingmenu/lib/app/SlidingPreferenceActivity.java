@@ -1,7 +1,7 @@
 package com.slidingmenu.lib.app;
 
-import android.preference.PreferenceActivity;
+import com.actionbarsherlock.app.SherlockPreferenceActivity;
 
-public class SlidingPreferenceActivity extends PreferenceActivity {
+public class SlidingPreferenceActivity extends SherlockPreferenceActivity {
 
 }
